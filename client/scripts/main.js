@@ -19,6 +19,7 @@ var config = {
         create: create,
         update: update
     }
+    //Need to use scene : [BootScene, GameScene ] instead of preload and create 
 
 };
 

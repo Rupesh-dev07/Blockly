@@ -8,7 +8,7 @@ const io = require('socket.io')(http);
 app.use('/src', express.static(path.join(__dirname,'./client/src')))
 app.use('/scripts', express.static(path.join(__dirname, './client/scripts')))
 app.use('/assets', express.static(path.join(__dirname, './client/assets')));
-// app.use('/scenes', express.static(path.join(__dirname, 'scenes')))
+ app.use('/scenes', express.static(path.join(__dirname, './client/scenes')))
 
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, '../bpm2/client/index.html'))

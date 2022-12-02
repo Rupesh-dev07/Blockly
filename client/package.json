@@ -1,0 +1,44 @@
+{
+
+    "name": "blockly-phaser3-master",
+
+    "description": "Hour of Code mock-up using phaser 3, blockly blocks and JS-Interpreter.",
+
+    "version": "1.0.0",
+
+    "scripts": {
+
+        "test": "echo \"Error: no test specified\" && exit 1",
+
+        "start": "parcel serve index.html",
+
+        "build": "parcel build index.html"
+
+    },
+
+    "author": "",
+
+    "license": "ISC",
+
+    "devDependencies": {
+
+        "parcel": "^2.8.0",
+
+        "typescript": "^4.9.3"
+
+    },
+
+    "dependencies": {
+
+        "blockly": "^9.1.1",
+
+        "colyseus": "^0.14.24",
+
+        "colyseus.js": "^0.14.13",
+
+        "phaser": "^3.55.2"
+
+    }
+
+}
+
